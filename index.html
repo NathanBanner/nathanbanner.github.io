@@ -74,13 +74,24 @@ class="close" title="Close Modal">&times;</span>
       <br />
       <button type="submit">Login</button>
     </div>
-
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
 </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
       <!--Button to open the modal for Sign Up-->
       <button class="btn btn-info" role="button" style="margin:10px;padding:10px" onclick="document.getElementById('id02').style.display='block'">Sign Up</button>
@@ -90,7 +101,6 @@ class="close" title="Close Modal">&times;</span>
   <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate" action="/action_page.php">
     <div class="container">
-      <div class="text-align:right">
       <label><b>Email</b></label>
       <br />
       <input type="text" placeholder="Enter Email" name="email" required>
@@ -113,10 +123,21 @@ class="close" title="Close Modal">&times;</span>
       <div class="clearfix">
         <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
         <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
     </div>
   </form>
 </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
     </div>
   </div>
