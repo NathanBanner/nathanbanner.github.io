@@ -14,6 +14,10 @@ body, html {
   background-size: cover;
 
 }
+@media only screen and (max-width: 1180px){
+
+}
+
 .bgimg-1 {
   background-image: url("https://www.sitebuilderreport.com/assets/facebook-stock-up-446fff24fb11820517c520c4a5a4c032.jpg");
   min-height: 100%;
