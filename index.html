@@ -62,15 +62,15 @@
   <!-- Modal Content -->
   <form class="modal-content animate" action="http://www.inspoeta.com/">
     <div class="imgcontainer">
-      <img src="http://www.avatarsdb.com/avatars/plangtone_angry.jpg" alt="Avatar" class="avatar">
+      <img src="images/Inspoeta Icon.jpg" alt="Avatar" class="avatar">
     </div>
-
+<br />
     <div class="container">
       <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" style="width:100%" required>
+      <input type="text" placeholder="Enter Username" name="uname" style="width:224px" required>
       <br />
       <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" style="width:100%" required>
+      <input type="password" placeholder="Enter Password" name="psw" style="width:224px" required>
       <br />
       <input type="checkbox" checked="checked"> Remember me
       <br />
@@ -94,22 +94,26 @@
 <div id="id02" class="modal">
   <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate" action="http://www.inspoeta.com/index.html">
+    <div class="imgcontainer">
+      <img src="images/Inspoeta Icon.jpg" alt="Avatar" class="avatar">
+    </div>
+<br />
     <div class="container">
       <label><b>Email</b></label>
       <br />
-      <input type="text" placeholder="Enter Email" name="email" style="width:100%" required>
+      <input type="text" placeholder="Enter Email" name="email" style="width:224px" required>
       <br />
       <label><b>Username</b></label>
       <br />
-      <input type="text" placeholder="Enter Username" name="uname" style="width:100%" required>
+      <input type="text" placeholder="Enter Username" name="uname" style="width:224px" required>
       <br />
       <label><b>Password</b></label>
       <br />
-      <input type="password" placeholder="Enter Password" name="psw" style="width:100%" required>
+      <input type="password" id="txtNewPassword" placeholder="Enter Password" name="psw" style="width:224px" required>
       <br />
       <label><b>Repeat Password</b></label>
       <br />
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" style="width:100%" required>
+      <input type="password"  id="txtConfirmPassword" placeholder="Repeat Password" name="psw-repeat" style="width:224px" required onChange="checkPasswordMatch();">
       <br />
       <input type="checkbox" name="RememberUser" checked="checked"> Remember me
       <br />
