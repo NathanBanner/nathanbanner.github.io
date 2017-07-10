@@ -82,7 +82,7 @@ h3 {
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    /*width: 80%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -140,4 +140,23 @@ h3 {
 		-moz-background-size: cover !important;
 		background-size: cover !important;
 	}
+}
+
+  body .modal-content { /* Width */
+    max-width: 100%;
+    width: auto !important;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media (min-width: 992px) {
+    .container {
+      width: auto;
+  }
+
 }
