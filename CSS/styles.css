@@ -136,6 +136,11 @@ h3 {
     width: 200px;
 }
 
+.staff-text {
+  padding: 0px;
+}
+
+
 @media screen and (max-width: 1024px) {
 	.panel-row-style {
 		background-attachment: fixed !important;
