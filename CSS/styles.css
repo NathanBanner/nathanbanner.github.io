@@ -30,8 +30,8 @@ body {
 }
 
 .bgimg-3 {
-  background-image: url("https://5wise.files.wordpress.com/2015/01/sunset-reflection-clouds-colours-forest-lake-nature-reflection-sky-snow-sunset-trees-winter.jpg");
-  min-height: 80%;
+  background-image: url("https://gm1.ggpht.com/k8GRlsytDcGYymcRKlCfmbM7yJtcoEgq-OubqFAOm6ABn3yWQyp_PjVahCUDRdWfqnP8KlEfQM2JLfOqyX_edKwlBaFOZhC9d2UYZfG73i3dMJFrUGRrqN1k6eZoNbLIrD5tUs-3_AbL4m-rpXIasI1sp3QtVRm7-ZToAX4j38oxL66MZVMmntKmoHgOTTjImnDNKuSh1EcBE-cmjhUsJgm3FWU1FkCb2AsHrkwHh8TeWLcu8bE9GahZA7-Pd9kTnypS9X4mmSGe8zVEJ9YNZ19ruvEnimVULr05gusZqpCGr7bgnYV6KUzMDsyH3c73SU3loIzunyby2T-hBNO4wNLAVOPLbUfgzU3Z6HAHP-NMme6ZkRRKRLzOx4UBql7MABbrhtQTeMnbL24E0RdF8-ykc3OJI_KAqy_8puKC1Pg_B_ID2DgmcDgnrQt-_BhZ4ysF-4oadHTMl1mJpyVEzYmBsCeBCQ5KGPafMj49uxdfMSx5pdBTkuZbbq30xdO0RlD555GSxCrp1_H6qBcEOk-YCEb4a1ZGug3d-sytoZY1gdLWTqj6ELAvvZoBMjXv9pixVKbelaPENDH8tsdsDly8LIM72CJ41LCMJmcuOTSEOMeOiHU6foOQ8ZppM4si-qWvSEOT7Ml1mGI212KxqBp8olj8LjhZR4fYCbF4bvfXgxj7hIBivBEZvBf5ng2y1J0eokd-LURoUjsgY0Hvc9dV=w1920-h917-l75-ft");
+  min-height: 100%;
 }
 
 .caption {
@@ -175,4 +175,12 @@ h3 {
     .bgimg-1, .bgimg-2, .bgimg-3 {
         background-attachment: scroll;
     }
+}
+
+#OurMission {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#OurMission2{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
