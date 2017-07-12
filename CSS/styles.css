@@ -5,6 +5,10 @@ body, html {
   color: #777;
 }
 
+body {
+  background: #fff;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
   opacity: 0.65;
@@ -120,7 +124,7 @@ h3 {
 }
 
 .about-us {
-    background-color: #fff;
+    background-color: #eeeeee;
     padding-top: 60px;
     padding-bottom: 60px;
 }
